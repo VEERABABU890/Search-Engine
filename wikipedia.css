@@ -1,0 +1,77 @@
+.main-container
+{
+    font-family: "Roboto";
+}
+.bg-container{
+    padding:5%;
+}
+.first-container
+{
+    height:25vh;
+}
+
+.main-card, .first-card , .last-card
+{
+    height:auto;
+}
+
+.last-card
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.main-card
+{
+    justify-content: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Wikipedia_logo_gold.png");
+    background-size: 100% 100%;
+}
+
+.searchInputBox
+{
+    margin-top: 4%;
+    margin-left: 9%;
+    width:80%;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+#searchResults
+{
+   
+    margin-left: 13%;
+    width:72%;
+    height:100vh;
+}
+
+.searchItem
+{
+    width:100%;
+    
+}
+
+.searchTitle
+{
+    color:blue;
+    font-size: 22px;
+}
+
+.searchLink
+{
+    text-decoration-line:none ;
+    color:green;
+    font-weight: bold;
+}
+
+.btnStyle
+{
+    height:4vh;
+}
+
+.invalidInput{
+    color: red;
+}
