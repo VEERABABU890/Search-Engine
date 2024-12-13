@@ -18,7 +18,7 @@ The engine dynamically displays search results based on the input and showcases 
 
 ## How to Use:
 1. Clone or download the repository.
-2. Open the `index.html` file in any web browser.
+2. Open the `wikipedia.html` file in any web browser.
 3. Enter a search query in the search box and hit enter to view results.
 
 
